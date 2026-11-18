@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kanelbullar</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #2a241f;
+
+      background-image: url("kanelbulle.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 50px 30px;
+    }
+
+    .title {
+      text-align: center;
+      background: rgba(255, 250, 242, 0.94);
+      padding: 20px 40px;
+      margin: 0 auto 35px;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .title h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 60px;
+      color: #294d75;
+    }
+
+    .title p {
+      margin: 8px 0 0;
+      font-size: 22px;
+      color: #5c534c;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 25px;
+    }
+
+    .box {
+      background: rgba(255, 250, 242, 0.94);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      color: #294d75;
+    }
+
+    ul {
+      margin: 0 0 25px;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      font-size: 17px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.6;
+      margin: 0 0 18px;
+    }
+
+    .line {
+      height: 1px;
+      background: #cfc3b5;
+      margin: 25px 0;
+    }
+
+    .meta {
+      border-top: 1px solid #cfc3b5;
+      padding-top: 18px;
+      margin-top: 25px;
+      color: #5c534c;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      .page {
+        padding: 25px 15px;
+      }
+
+      .content {
+        grid-template-columns: 1fr;
+      }
+
+      .title h1 {
+        font-size: 42px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="page">
+
+    <div class="title">
+      <h1>Kanelbullar</h1>
+      <p>Goda svenska kanelbullar</p>
+    </div>
+
+    <div class="content">
+
+      <aside class="box">
+
+        <h2>Ingredienser</h2>
+
+        <ul>
+          <li>50 g jäst</li>
+          <li>5 dl mjölk, rumstempererad</li>
+          <li>150 g smör, rumstempererat</li>
+          <li>1 1/2 dl vit sirap</li>
+          <li>2 tsk mald kardemumma</li>
+          <li>ca 13 dl vetemjöl</li>
+          <li>1/2 tsk salt</li>
+        </ul>
+
+        <div class="line"></div>
+
+        <h2>Fyllning</h2>
+
+        <ul>
+          <li>200 g smör</li>
+          <li>1 1/2 dl farinsocker</li>
+          <li>3 msk kanel</li>
+        </ul>
+
+        <div class="line"></div>
+
+        <h2>Pensling</h2>
+
+        <ul>
+          <li>Ägg</li>
+        </ul>
+
+        <div class="line"></div>
+
+        <h2>Garnering</h2>
+
+        <ul>
+          <li>Pärlsocker</li>
+        </ul>
+
+      </aside>
+
+      <section class="box">
+
+        <h2>Instruktioner</h2>
+
+        <p>
+          Smula jästen i en degbunke och tillsätt mjölken.
+          Rör tills jästen löst sig.
+        </p>
+
+        <p>
+          Tillsätt sirap, kardemumma, smör och 2/3 av mjölet.
+          Arbeta degen blank och smidig. Tillsätt salt och
+          ytterligare mjöl och arbeta degen tills den släpper
+          bunkens kanter. Låt jäsa under duk till dubbel storlek,
+          20–30 minuter.
+        </p>
+
+        <p>
+          Blanda samman smör, socker och kanel till fyllningen.
+          Tag upp degen på mjölat bakbord och knåda den smidig.
+          Dela degen i 2 delar. Kavla varje del till en
+          rektangulär platta. Bred på fyllningen. Rulla samman
+          och skär i bitar. Låt jäsa under duk i 30 minuter.
+        </p>
+
+        <p>
+          Sätt ugnen på 250 °C. Pensla bullarna med uppvispat
+          ägg. Strö på pärlsocker. Grädda kanelbullarna mitt
+          i ugnen 8–10 minuter. Låt svalna på galler.
+        </p>
+
+        <div class="meta">
+          Ca 16–20 bullar · jästid ca 1 timme · gräddning 8–10 min
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
+
+</body>
+</html>

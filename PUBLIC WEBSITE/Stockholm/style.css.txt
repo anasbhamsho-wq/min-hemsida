@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #e8f7ff;
+    color: #123247;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+nav h2 {
+    color: #174a6e;
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: #174a6e;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #168aad;
+}
+
+.hero {
+    height: 650px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 40, 65, 0.35),
+            rgba(0, 40, 65, 0.35)
+        ),
+        url("stockholm.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    max-width: 650px;
+}
+
+.small-title {
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 90px;
+    margin: 10px 0;
+    letter-spacing: 10px;
+}
+
+.hero-text > p:not(.small-title) {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 28px;
+    background-color: white;
+    color: #174a6e;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #bde7f7;
+    transform: scale(1.05);
+}
+
+.intro {
+    max-width: 850px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.intro h2 {
+    font-size: 42px;
+    color: #174a6e;
+}
+
+.intro p {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 50px auto 120px;
+    padding: 0 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 35px;
+    flex: 1;
+    min-height: 280px;
+    border-radius: 15px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 50, 80, 0.10);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #168aad;
+}
+
+.card h2 {
+    color: #174a6e;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+.card a {
+    color: #168aad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #123247;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 800px) {
+
+    nav {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .hero {
+        height: 500px;
+        padding: 30px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+}

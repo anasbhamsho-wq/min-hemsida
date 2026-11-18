@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Brottsbalken</title>
+</head>
+
+<body bgcolor="Gray">
+
+<h1>Brottsbalken</h1>
+
+<h2>Vad är brottsbalken?</h2>
+
+<p>
+    Brottsbalken är en svensk lag som handlar om vilka handlingar
+    som räknas som brott och vilka straff man kan få om man begår ett brott.
+</p>
+
+<img src="brott.jpg" width="300">
+
+<h2>Vad gäller lagen för?</h2>
+
+<ul>
+    <li><b>Stöld:</b> Att ta något som tillhör någon annan.</li>
+    <li><b>Misshandel:</b> Att skada en annan person.</li>
+    <li><b>Mord:</b> Att döda en annan människa.</li>
+    <li><b>Bedrägeri:</b> Att lura någon för att få pengar.</li>
+</ul>
+
+<h2>Varför finns lagen?</h2>
+
+<p>
+    Lagen finns för att skydda människor och skapa trygghet
+    i samhället. Den gör också att personer som begår brott
+    kan få ett straff.
+</p>
+
+<h2>Vilka straff kan man få?</h2>
+
+<ul>
+    <li>Böter</li>
+    <li>Fängelse</li>
+    <li>Ungdomspåföljder</li>
+</ul>
+
+<p>
+    <a href="index.html">Tillbaka till startsidan</a>
+</p>
+
+</body>
+</html>

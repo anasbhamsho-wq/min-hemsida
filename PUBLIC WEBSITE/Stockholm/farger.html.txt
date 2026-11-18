@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stockholm | Färger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>STOCKHOLM</h2>
+
+    <div>
+        <a href="index.html">Hem</a>
+        <a href="stockholm.html">Stockholm</a>
+        <a href="bildformat.html">Bildformat</a>
+        <a href="farger.html">Färger</a>
+    </div>
+</nav>
+
+
+<section class="intro">
+
+    <p class="small-title">HTML & CSS</p>
+
+    <h1>Färger</h1>
+
+    <p>
+        Färger kan användas för att ändra bakgrund,
+        text och olika delar av en webbplats.
+    </p>
+
+</section>
+
+
+<section class="cards">
+
+    <div class="card" style="background-color: #dff3ff;">
+        <h3>#DFF3FF</h3>
+        <h2>Ljusblå</h2>
+        <p>
+            En ljus färg som används på den här webbplatsens bakgrund.
+        </p>
+    </div>
+
+
+    <div class="card" style="background-color: #174a6e; color: white;">
+        <h3 style="color: white;">#174A6E</h3>
+        <h2>Blå</h2>
+        <p>
+            En mörkare blå färg som används till rubriker och detaljer.
+        </p>
+    </div>
+
+
+    <div class="card" style="background-color: #168aad; color: white;">
+        <h3 style="color: white;">#168AAD</h3>
+        <h2>Turkosblå</h2>
+        <p>
+            En starkare blå färg som används för detaljer och länkar.
+        </p>
+    </div>
+
+</section>
+
+
+<section class="intro">
+
+    <h2>Två sätt att skriva färger</h2>
+
+    <p>
+        Färger kan skrivas med ett färgnamn eller med
+        en hexadecimal kod.
+    </p>
+
+</section>
+
+
+<section class="cards">
+
+    <div class="card">
+
+        <h3>01</h3>
+
+        <h2>Färgnamn</h2>
+
+        <p>
+            Ett exempel är:
+        </p>
+
+        <p>
+            background-color: lightblue;
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>02</h3>
+
+        <h2>Hexadecimal kod</h2>
+
+        <p>
+            Ett exempel är:
+        </p>
+
+        <p>
+            background-color: #ADD8E6;
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="intro">
+
+    <h2>Färgpaletten på webbplatsen</h2>
+
+    <p>
+        Jag använder framför allt ljusblå, mörkblå och
+        turkosblå färger för att skapa ett tema som passar
+        Stockholms vatten och stadsmiljö.
+    </p>
+
+    <p>
+        Läs mer om färger på
+        <a href="https://www.w3schools.com/colors/">
+        W3Schools
+        </a>
+    </p>
+
+</section>
+
+
+<footer>
+    <p>STOCKHOLM | BETWEEN WATER & CITY</p>
+</footer>
+
+</body>
+</html>
